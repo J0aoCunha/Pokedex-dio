@@ -16,7 +16,7 @@ body {
 }
 
 .content h1 {
-    margin: 0;
+    margin: 1rem;
 }
 
 @media screen and (min-width: 992px) {
