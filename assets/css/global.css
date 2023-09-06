@@ -5,7 +5,7 @@
 
 body {
     padding-top: 2.7rem;
-    background-color: #f6f8fc;
+    background-color: #ee4242;
 }
 
 .content {
@@ -16,6 +16,9 @@ body {
 }
 
 .content h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 1rem;
 }
 
