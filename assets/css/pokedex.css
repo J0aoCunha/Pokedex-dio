@@ -158,7 +158,6 @@
     padding: .3rem;
 }
 
-
 .pagination button:hover {
     background-color: #d6d6d6;
     color: #ee4242;
@@ -167,6 +166,10 @@
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .content {
+        height: auto;
     }
 }
 
@@ -177,10 +180,29 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .content {
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .content {
+        height: auto;
+
+    }
+}
+
+@media screen and (min-width:315px) {
+    .pokemons {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        height: auto;
     }
 }
