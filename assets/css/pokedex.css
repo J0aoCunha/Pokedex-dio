@@ -10,11 +10,11 @@
     background-color: #78c850;
 }
 
-.electr {
+.electric {
     background-color: #f8d030;
 }
 
-.psychc {
+.psychic {
     background-color: #f85888;
 }
 
@@ -36,7 +36,7 @@
 
 }
 
-.figth {
+.fighting {
     background-color: #903028;
 
 }
@@ -67,7 +67,7 @@
 }
 
 .rock {
-    background-color: 8;
+    background-color: #B6A136;
 
 }
 
@@ -79,9 +79,6 @@
 .fairy {
     background-color: #f9aec7;
 }
-
-
-
 
 
 .pokemons {
@@ -134,12 +131,31 @@
 .pokemon .detail .types .type {
 
     color: #fff;
-    padding: .25rem 1rem;
+    padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
     filter: brightness(1.2);
     text-align: center;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    background-color: #6c79db;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: .3rem;
 }
 
 @media screen and (min-width: 380px) {
