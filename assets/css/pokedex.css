@@ -159,6 +159,10 @@
 }
 
 
+.pagination button:hover {
+    background-color: #d6d6d6;
+    color: #ee4242;
+}
 
 @media screen and (min-width: 380px) {
     .pokemons {
@@ -166,10 +170,7 @@
     }
 }
 
-.pagination button:hover {
-    background-color: #d6d6d6;
-    color: #ee4242;
-}
+
 
 
 @media screen and (min-width: 576px) {
